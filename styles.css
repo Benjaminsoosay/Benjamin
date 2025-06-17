@@ -1,0 +1,94 @@
+
+/* styles.css */
+
+body {
+  font-family: 'Outfit', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 50px 0;
+  background-color: #4CAF50;
+  color: white;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  font-size: 1.2em;
+}
+
+.product {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  object-fit: cover;
+}
+
+.product-content {
+  padding: 20px;
+  flex: 1;
+}
+
+.product-content h2 {
+  margin-top: 0;
+  font-size: 1.8em;
+}
+
+.product-content p {
+  line-height: 1.6;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: #4CAF50;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #45a049;
+}
+
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #333;
+  color: white;
+  margin-top: 40px;
+}
+
+footer p {
+  margin: 0;
+}
