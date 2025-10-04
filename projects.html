@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | SoosayCodes.com</title>
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/styles.css">
+    <script src="scripts/javascript.js" defer></script>
+</head>
+<body>
+    <!-- Domain Notice -->
+    <div class="domain-notice">
+        SoosayCodes.com - Professional Portfolio of Benjamin I.
+    </div>
+
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">SoosayCodes</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="resume.html">Resume</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+                <div class="hamburger">
+                    <span>☰</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            
+            <div class="project-filters">
+                <button class="filter-btn active" data-category="all">All Projects</button>
+                <button class="filter-btn" data-category="fintech">Fintech</button>
+                <button class="filter-btn" data-category="web">Web Development</button>
+                <button class="filter-btn" data-category="data">Data Management</button>
+                <button class="filter-btn" data-category="academic">Academic</button>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Task Manager Project -->
+                <div class="project-card" data-category="web academic">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x200/3B82F6/FFFFFF?text=Task+Manager" alt="Task Manager Application">
+                    </div>
+                    <div class="project-content">
+                        <h3>Task Manager Application</h3>
+                        <p>A responsive task management web application with drag-and-drop functionality, due date tracking, and local storage persistence. Built as part of WDD131 coursework.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">LocalStorage</span>
+                            <span class="tech-tag">Responsive Design</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Drag-and-drop task organization</li>
+                                <li>Due date tracking and notifications</li>
+                                <li>Data persistence with localStorage</li>
+                                <li>Responsive mobile-first design</li>
+                                <li>Task categorization and filtering</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://benjaminsoosay.github.io/wdd131-project/tasks.html" class="btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Benjaminsoosay/wdd131-project" class="btn btn-outline" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Interactive Form Project -->
+                <div class="project-card" data-category="web academic">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x200/10B981/FFFFFF?text=Interactive+Form" alt="Interactive Form Application">
+                    </div>
+                    <div class="project-content">
+                        <h3>Interactive Form with Validation</h3>
+                        <p>An advanced form application with real-time validation, dynamic field generation, and user-friendly error handling. Demonstrates modern form design principles.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Form Validation</span>
+                            <span class="tech-tag">UX/UI Design</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Real-time input validation</li>
+                                <li>Dynamic field generation</li>
+                                <li>Accessible error messages</li>
+                                <li>Progress tracking</li>
+                                <li>Mobile-responsive design</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://benjaminsoosay.github.io/wdd131/form.html" class="btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Benjaminsoosay/wdd131" class="btn btn-outline" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- CSE210 Programming Projects -->
+                <div class="project-card" data-category="academic">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x200/8B5CF6/FFFFFF?text=C%2B%2B+Projects" alt="CSE210 Programming Projects">
+                    </div>
+                    <div class="project-content">
+                        <h3>CSE210 Programming Projects</h3>
+                        <p>A collection of C++ programming assignments and projects from CSE210 course, demonstrating object-oriented programming principles and problem-solving skills.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">C++</span>
+                            <span class="tech-tag">OOP</span>
+                            <span class="tech-tag">Algorithms</span>
+                            <span class="tech-tag">Data Structures</span>
+                            <span class="tech-tag">Git</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Object-oriented design patterns</li>
+                                <li>Algorithm implementation</li>
+                                <li>Memory management</li>
+                                <li>Code documentation</li>
+                                <li>Version control with Git</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Benjaminsoosay/cse210-hw" class="btn" target="_blank">
+                                <i class="fab fa-github"></i> View Repository
+                            </a>
+                            <a href="https://github.com/Benjaminsoosay/cse210-hw" class="btn btn-outline" target="_blank">
+                                <i class="fas fa-code"></i> Source Code
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- White Water Rafting Website -->
+                <div class="project-card" data-category="web academic">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x200/EF4444/FFFFFF?text=White+Water+Rafting" alt="White Water Rafting Website">
+                    </div>
+                    <div class="project-content">
+                        <h3>White Water Rafting Company Website</h3>
+                        <p>A comprehensive website for a white water rafting company, featuring multiple pages, booking forms, trip information, and responsive design for all devices.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Responsive Design</span>
+                            <span class="tech-tag">Web Forms</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Multi-page website structure</li>
+                                <li>Responsive navigation</li>
+                                <li>Booking and contact forms</li>
+                                <li>Image galleries</li>
+                                <li>Cross-browser compatibility</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://benjaminsoosay.github.io/wdd130/wwr/about.html" class="btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Benjaminsoosay/wdd130" class="btn btn-outline" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Personal Portfolio V1 -->
+                <div class="project-card" data-category="web">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x200/F59E0B/FFFFFF?text=Portfolio+V1" alt="Personal Portfolio Version 1">
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website (Version 1)</h3>
+                        <p>My first personal portfolio website showcasing early web development projects and skills. Features clean design, project showcases, and contact information.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Netlify</span>
+                            <span class="tech-tag">GitHub Pages</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Clean, professional design</li>
+                                <li>Project showcase gallery</li>
+                                <li>Responsive layout</li>
+                                <li>Contact form</li>
+                                <li>Social media integration</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://benjaminsoosay.github.io/Benjamin/index.html" class="btn" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                            <a href="https://github.com/Benjaminsoosay/Benjamin" class="btn btn-outline" target="_blank">
+                                <i class="fab fa-github"></i> GitHub
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Financial Compliance Dashboard -->
+                <div class="project-card" data-category="fintech web">
+                    <div class="project-img">
+                        <img src="https://via.placeholder.com/400x200/2563EB/FFFFFF?text=Fintech+Dashboard" alt="Financial Compliance Dashboard">
+                    </div>
+                    <div class="project-content">
+                        <h3>Financial Compliance Dashboard</h3>
+                        <p>A comprehensive web application that helps financial institutions track and maintain regulatory compliance with international financial standards. Features real-time monitoring and automated reporting.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Chart.js</span>
+                        </div>
+                        <div class="project-features">
+                            <h4>Key Features:</h4>
+                            <ul>
+                                <li>Real-time compliance monitoring</li>
+                                <li>Automated report generation</li>
+                                <li>Multi-currency support</li>
+                                <li>Audit trail logging</li>
+                                <li>Regulatory updates tracking</li>
+                            </ul>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="btn"><i class="fas fa-external-link-alt"></i> Live Demo</a>
+                            <a href="#" class="btn btn-outline"><i class="fab fa-github"></i> GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GitHub Stats Section -->
+            <div class="github-stats">
+                <h3>GitHub Activity</h3>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <i class="fab fa-github"></i>
+                        <h4>Public Repositories</h4>
+                        <div class="stat-number">15+</div>
+                        <p>Open source projects and coursework</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-code-branch"></i>
+                        <h4>Contributions</h4>
+                        <div class="stat-number">200+</div>
+                        <p>Code commits and contributions</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fas fa-laptop-code"></i>
+                        <h4>Technologies</h4>
+                        <div class="stat-number">10+</div>
+                        <p>Programming languages and tools</p>
+                    </div>
+                </div>
+                <div class="github-cta">
+                    <a href="https://github.com/Benjaminsoosay" class="btn" target="_blank">
+                        <i class="fab fa-github"></i> View My GitHub Profile
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">SoosayCodes.com</div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/benjamin-iwuchukwu-65661a21a" class="social-link linkedin" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://x.com/MisterXplicit" class="social-link twitter" target="_blank">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="https://www.facebook.com/xplici.nonso" class="social-link facebook" target="_blank">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://tiktok.com/@benjamin.soosay.i" class="social-link tiktok" target="_blank">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                    <a href="https://wa.me/17052019653" class="social-link whatsapp" target="_blank">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 SoosayCodes.com | Benjamin Chinonso Soosay Iwuchukwu. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
